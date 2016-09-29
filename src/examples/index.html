@@ -11,6 +11,10 @@
 
   <div id="root" class="container"></div>
 
+  <script>
+  __REACT_DEVTOOLS_GLOBAL_HOOK__ = parent.__REACT_DEVTOOLS_GLOBAL_HOOK__
+  </script>
+
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
@@ -51,6 +55,23 @@
 
     .btn {
       margin-top: 20px;
+    }
+
+    .results {
+      margin-top: 20px;
+    }
+
+    .results > .title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .drug.label {
+      display: block;
+      width: 200px;
+      padding: 10px;
+      font-size: 2rem;
+      margin-bottom: 5px;
     }
   </style>
 
